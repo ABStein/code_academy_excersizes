@@ -19,3 +19,13 @@ def applicant_selector(gpa, ps_score, ec_count):
   elif (gpa >= 3.0) and (ps_score >= 90) and not (ec_count >= 3):
     return "This applicant should be given an in-person interview."
   else: return "This applicant should be rejected."
+
+def simple_conditional(x):
+  if x == 0:
+    print("x is equal to zero.")
+  elif x >= 0:
+    print("x is greater than zero.")
+  else:
+    print("x is less than zero.")
+
+simple_conditional(0)
